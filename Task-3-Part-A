@@ -1,0 +1,5 @@
+array = np.random.rand(5)
+ascending = np.sort(array)
+descending = ascending[::-1]
+print(ascending)
+print(descending)
