@@ -1,0 +1,7 @@
+array_2d = np.array([[1, 2, 3], [4, 5, 6]])
+row_sum = np.sum(array_2d, axis=1)
+col_mean = np.mean(array_2d, axis=0)
+std_dev = np.std(array_2d)
+print(row_sum)
+print(col_mean)
+print(std_dev)
