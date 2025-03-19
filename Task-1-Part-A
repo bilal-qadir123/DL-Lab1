@@ -1,0 +1,15 @@
+import tensorflow as tf
+import numpy as np
+
+tensor = tf.constant(np.random.rand(3, 3))
+
+print("Tensor:", tensor)
+
+reduced_sum = tf.reduce_sum(tensor)
+print("Reduced Sum:", reduced_sum.numpy())
+
+reduced_mean = tf.reduce_mean(tensor)
+print("Reduced Mean:", reduced_mean.numpy())
+
+reduced_max = tf.reduce_max(tensor)
+print("Reduced Max:", reduced_max.numpy())
