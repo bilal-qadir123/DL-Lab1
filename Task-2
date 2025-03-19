@@ -1,0 +1,14 @@
+import tensorflow as tf
+
+tensor1 = tf.constant([10, 20, 30])
+tensor2 = tf.constant([5, 10, 15])
+
+addition = tensor1 + tensor2
+subtraction = tensor1 - tensor2
+multiplication = tensor1 * tensor2
+division = tensor1 / tensor2
+
+print(addition.numpy())
+print(subtraction.numpy())
+print(multiplication.numpy())
+print(division.numpy())
